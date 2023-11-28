@@ -103,7 +103,8 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
         title: Text('Buy Now'),
@@ -122,7 +123,9 @@ class SecondPage extends StatelessWidget {
             ), // Replace with actual image URL
             SizedBox(height: 16.0),
             Text('Author: $authorName'),
+            SizedBox(height: 10),
             Text('Description: $description'),
+            SizedBox(height: 10),
             Text('Price: $price'),
             SizedBox(height: 16.0),
             Align(
