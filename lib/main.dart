@@ -18,9 +18,9 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.redAccent,
         title: Text('Book List'),
       ),
       body: ListView(
@@ -29,6 +29,9 @@ class FirstPage extends StatelessWidget {
           Book('The Lord of the Rings', 'Alim Bin Yeasin', '4.5', Icons.book),
           SizedBox(height: 16.0),
           Book('The Alchemist', 'Paulo Coelho', '3.8', Icons.book),
+          SizedBox(height: 16.0),
+          Book('Giggling Grammar', 'Fatema Kamal', '5.0', Icons.book),
+
         ],
       ),
     );
