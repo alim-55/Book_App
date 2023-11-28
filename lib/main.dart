@@ -125,7 +125,7 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
         title: Text('Buy Now'),
